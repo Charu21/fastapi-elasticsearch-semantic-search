@@ -25,6 +25,7 @@ This project implements an advanced semantic search engine for products using El
   - [Project Structure](#project-structure)
 
 ## Architecture
+![](diagrams/architecture.gif)
 
 The project consists of the following components:
 
