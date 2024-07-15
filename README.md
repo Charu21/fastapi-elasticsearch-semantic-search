@@ -88,29 +88,29 @@ The project consists of the following components:
 
 ## Project Structure
 
-semantic-search-elasticsearch/
-├── app.py                 # Main application entry point
-├── bootstrap.py           # Bootstrap script for initializing Elasticsearch
-├── dependencies.py        # Dependency Injection
-├── config/
-│   └── elastic_mapper.py  # Elasticsearch index mappings
-│   └── elastic_mapper.py  # Elasticsearch index mappings
-├── model/
-│   └── product.py  # Elasticsearch index mappings
-├── api/
-│   └── crud_endpoints.py  # API endpoints for app
-├── services/
-│   ├── csv_loader.py      # CSV handling operations
-│   ├── elastic_service.py # Elastic Search data manipulations
-│   └── embedding_service.py # Loading model from env file
-│   └── elastic_search_index_service.py # Elasticsearch factory methods 
-│   └── elastic_mapper.py  # Elasticsearch index mappings
-│   └── check.py  # simple validation script
-├── resources/
-│   └── myntra_products.csv # Sample product data
-├── .env                   # Environment variables
-├── .gitignore             # Git ignore file
-├── README.md              # Project readme file
-└── requirements.txt       # Python dependencies
+    ├── semantic-search-elasticsearch/
+    ├── app.py                 # Main application entry point
+    ├── bootstrap.py           # Bootstrap script for initializing Elasticsearch
+    ├── dependencies.py        # Dependency Injection
+    ├── config/
+    │   └── elastic_mapper.py  # Elasticsearch index mappings
+    │   └── elastic_mapper.py  # Elasticsearch index mappings
+    ├── model/
+    │   └── product.py  # Elasticsearch index mappings
+    ├── api/
+    │   └── crud_endpoints.py  # API endpoints for app
+    ├── services/
+    │   ├── csv_loader.py      # CSV handling operations
+    │   ├── elastic_service.py # Elastic Search data manipulations
+    │   └── embedding_service.py # Loading model from env file
+    │   └── elastic_search_index_service.py # Elasticsearch factory methods 
+    │   └── elastic_mapper.py  # Elasticsearch index mappings
+    │   └── check.py  # simple validation script
+    ├── resources/
+    │   └── myntra_products.csv # Sample product data
+    ├── .env                   # Environment variables
+    ├── .gitignore             # Git ignore file
+    ├── README.md              # Project readme file
+    └── requirements.txt       # Python dependencies
 
 
