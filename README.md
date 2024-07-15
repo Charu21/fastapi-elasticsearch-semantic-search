@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements an advanced semantic search engine for products using Elasticsearch, FastAPI and NLP Sentence Transformers. The application leverages sentence embeddings from BERT models to provide accurate and efficient semantic search capabilities. It includes endpoints for indexing products, retrieving all products with pagination, and searching for products by their descriptions and ids. The primary objective is to enable efficient and scalable semantic search over product descriptions by leveraging dense vector embeddings.
+This project implements an advanced semantic search engine for products using Elasticsearch, FastAPI and NLP Sentence Transformers. The application leverages sentence embeddings from BERT models to provide accurate and efficient semantic search capabilities. It includes endpoints for indexing products, retrieving all products with pagination, and searching for products by their descriptions and ids surfaced as RESTful APIs. The primary objective is to enable efficient and scalable semantic search over product descriptions by leveraging dense vector embeddings.
 
 ## Features
 
