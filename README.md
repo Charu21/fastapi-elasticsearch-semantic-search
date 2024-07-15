@@ -29,10 +29,10 @@ This project implements an advanced semantic search engine for products using El
 
 The project consists of the following components:
 
-- **FastAPI Application**: Serves as the backend API providing CRUD operations and search functionality.
+- **FastAPI Application**: Serves as the backend API providing read, get and search operations.
 - **Elasticsearch**: Stores and indexes product data for fast and efficient search.
 - **Sentence Transformers**: Used to encode product descriptions into dense vectors for semantic search.
-- **Docker**: Manages containerized deployment of Elasticsearch and the Flask application.
+- **Docker**: Manages containerized deployment of Elasticsearch and the FastAPI application. (elasticsearch run locally as a docker container)
 
 ## Setup
 
