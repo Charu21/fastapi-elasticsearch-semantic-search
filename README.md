@@ -72,7 +72,8 @@ The project consists of the following components:
 
 7. **Running the Application**:
     You can run the FastAPI Application:
-    ```sh uvicorn app:app --reload
+    ```sh
+    uvicorn app:app --reload
 
 8. **Access the Application**:
     Open your browser and go to http://localhost:8000.
