@@ -84,7 +84,7 @@ The project consists of the following components:
 
 ## Endpoints
 - **GET /get_product/<product_id>**: Retrieve a product's information by ID.
-- **GET /search_product**: Search for products based on a brief description.
+- **POST /search_product**: Search for products based on a brief description.
 - **GET /system_status**: Check if the system is up and running.
 - **GET /get_all_products**: Retrieve all products from the Elasticsearch index with pagination support.
 
