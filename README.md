@@ -84,7 +84,10 @@ The project consists of the following components:
 
 ## Endpoints
 - **GET /get_product/<product_id>**: Retrieve a product's information by ID.
-- **POST /search_product**: Search for products based on a brief description.
+- **POST /search_product**: Search for products based on a brief description specified in query.
+  ```sh
+  /product_search?query=<search_query>
+  
 - **GET /system_status**: Check if the system is up and running.
 - **GET /get_all_products**: Retrieve all products from the Elasticsearch index with pagination support.
 
@@ -115,4 +118,6 @@ The project consists of the following components:
     ├── README.md              # Project readme file
     └── requirements.txt       # Python dependencies
 
-
+## CONCLUSION
+By using semantic search, our application provides a more intelligent and comprehensive search experience, ensuring users find what they're looking for even if they don't use the exact keywords. 
+This enhances user satisfaction and improves the overall search experience.
